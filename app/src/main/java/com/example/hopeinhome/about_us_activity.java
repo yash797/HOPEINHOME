@@ -29,14 +29,14 @@ public class about_us_activity extends AppCompatActivity {
         instaButtonA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                gotoUrl("https://www.instagram.com/yashgajalwar/");
+                gotoUrl("https://www.instagram.com/_ya.sh._p");
             }
         });
         linkedinButtonA = findViewById(R.id.about_us_linkedin_buttonA);
         linkedinButtonA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                gotoUrl("https://www.linkedin.com/in/yash-gajalwar-b412361b9/");
+                gotoUrl("https://www.linkedin.com/in/yash-pande-/");
             }
         });
 
@@ -44,16 +44,47 @@ public class about_us_activity extends AppCompatActivity {
         instaButton2A.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                gotoUrl("https://www.instagram.com/_ya.sh._p");
+                gotoUrl("https://www.instagram.com/aryan_u_007/?hl=en");
             }
         });
         linkedinButton2A = findViewById(R.id.about_us_linkedin_button2A);
         linkedinButton2A.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                gotoUrl("https://www.linkedin.com/in/yash-pande-/");
+                gotoUrl("https://www.linkedin.com/in/aryan-umale-901ba4208/");
             }
         });
+
+         instaButton2A = findViewById(R.id.about_us_insta_button2A);
+        instaButton2A.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                gotoUrl("https://www.instagram.com/ya.mini108/?hl=en");
+            }
+        });
+        linkedinButton2A = findViewById(R.id.about_us_linkedin_button2A);
+        linkedinButton2A.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                gotoUrl("https://www.linkedin.com/in/yamini-tapde-9447b320b/");
+            }
+        });
+
+         instaButton2A = findViewById(R.id.about_us_insta_button2A);
+        instaButton2A.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                gotoUrl("https://www.instagram.com/sayali.2308/?hl=en");
+            }
+        });
+        linkedinButton2A = findViewById(R.id.about_us_linkedin_button2A);
+        linkedinButton2A.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                gotoUrl("https://www.linkedin.com");
+            }
+        });
+
        
 
 
