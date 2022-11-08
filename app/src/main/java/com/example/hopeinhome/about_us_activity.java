@@ -81,7 +81,7 @@ public class about_us_activity extends AppCompatActivity {
         linkedinButton2A.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                gotoUrl("https://www.linkedin.com");
+                gotoUrl("https://www.linkedin.com/in/sayali-sable-4ba9aa226/");
             }
         });
 
