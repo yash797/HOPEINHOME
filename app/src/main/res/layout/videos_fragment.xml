@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.videos.videos" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:elevation="2dp">
+
+        <LinearLayout
+            android:layout_width="367dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:background="@drawable/shadow"
+            android:paddingBottom="3dp">
+
+            <ImageView
+                android:id="@+id/logo1"
+                android:layout_width="7dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:paddingLeft="5dp"
+                android:src="@drawable/youtubelogo" />
+
+            <TextView
+                android:id="@+id/video1"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:text="Covid-19 Health Tips"
+                android:textColor="#2C2828"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="367dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:background="@drawable/shadow"
+            android:paddingBottom="3dp">
+
+            <ImageView
+                android:id="@+id/logo2"
+                android:layout_width="7dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+
+                android:paddingLeft="5dp"
+                android:src="@drawable/youtubelogo" />
+
+            <TextView
+                android:id="@+id/video2"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+
+                android:paddingTop="5dp"
+                android:text="Daily Routine as per Ayurveda"
+                android:textColor="#2C2828"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="367dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:background="@drawable/shadow"
+            android:paddingBottom="3dp">
+
+            <ImageView
+                android:id="@+id/logo3"
+                android:layout_width="7dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+
+                android:paddingLeft="5dp"
+                android:src="@drawable/youtubelogo" />
+
+            <TextView
+                android:id="@+id/video3"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+
+                android:paddingTop="5dp"
+                android:text="Tips for Better Mental Health"
+                android:textColor="#2C2828"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="367dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:background="@drawable/shadow"
+            android:paddingBottom="3dp">
+
+            <ImageView
+                android:id="@+id/logo4"
+                android:layout_width="7dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+
+                android:paddingLeft="5dp"
+                android:src="@drawable/youtubelogo" />
+
+            <TextView
+                android:id="@+id/video4"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+
+                android:paddingTop="5dp"
+                android:text="Covaxine or COvishield"
+                android:textColor="#2C2828"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="367dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:background="@drawable/shadow"
+            android:paddingBottom="3dp">
+
+            <ImageView
+                android:id="@+id/logo5"
+                android:layout_width="7dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+
+                android:paddingLeft="5dp"
+                android:src="@drawable/youtubelogo" />
+
+            <TextView
+                android:id="@+id/video5"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+
+                android:paddingTop="5dp"
+                android:text="Yoga"
+                android:textColor="#2C2828"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="367dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:background="@drawable/shadow"
+            android:paddingBottom="3dp">
+
+            <ImageView
+                android:id="@+id/logo6"
+                android:layout_width="7dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+
+                android:paddingLeft="5dp"
+                android:src="@drawable/youtubelogo" />
+
+            <TextView
+                android:id="@+id/video6"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+
+                android:paddingTop="5dp"
+                android:text="Healthy Mind and Body"
+                android:textColor="#2C2828"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="367dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:background="@drawable/shadow"
+            android:paddingBottom="3dp">
+
+            <ImageView
+                android:id="@+id/logo7"
+                android:layout_width="7dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+
+                android:paddingLeft="5dp"
+                android:src="@drawable/youtubelogo" />
+
+            <TextView
+                android:id="@+id/video7"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+
+                android:paddingTop="5dp"
+                android:text="Yogaasanas"
+                android:textColor="#2C2828"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="367dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:background="@drawable/shadow"
+            android:paddingBottom="3dp">
+
+            <ImageView
+                android:id="@+id/logo8"
+                android:layout_width="7dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+
+                android:paddingLeft="5dp"
+                android:src="@drawable/youtubelogo" />
+
+            <TextView
+                android:id="@+id/video8"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+
+                android:paddingTop="5dp"
+                android:text="Nutrition for Healthy Life"
+                android:textColor="#2C2828"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="367dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:background="@drawable/shadow"
+            android:paddingBottom="3dp">
+
+            <ImageView
+                android:id="@+id/logo9"
+                android:layout_width="7dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+
+                android:paddingLeft="5dp"
+                android:src="@drawable/youtubelogo" />
+
+            <TextView
+                android:id="@+id/video9"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+
+                android:paddingTop="5dp"
+                android:text="Healthy Foods that will Boost You"
+                android:textColor="#2C2828"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="367dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:background="@drawable/shadow"
+            android:paddingBottom="3dp">
+
+            <ImageView
+                android:id="@+id/logo10"
+                android:layout_width="7dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+
+                android:paddingLeft="5dp"
+                android:src="@drawable/youtubelogo" />
+
+            <TextView
+                android:id="@+id/video10"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+
+                android:paddingTop="5dp"
+                android:text="Benefits of Exercise"
+                android:textColor="#2C2828"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="367dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:background="@drawable/shadow"
+            android:paddingBottom="3dp">
+
+            <ImageView
+                android:id="@+id/logo11"
+                android:layout_width="7dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+
+                android:paddingLeft="5dp"
+                android:src="@drawable/youtubelogo" />
+
+            <TextView
+                android:id="@+id/video11"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+
+                android:paddingTop="5dp"
+                android:text="Exercises for Beginners"
+                android:textColor="#2C2828"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="367dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:background="@drawable/shadow"
+            android:paddingBottom="3dp">
+
+            <ImageView
+                android:id="@+id/logo12"
+                android:layout_width="7dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+
+                android:paddingLeft="5dp"
+                android:src="@drawable/youtubelogo" />
+
+            <TextView
+                android:id="@+id/video12"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+
+                android:paddingTop="5dp"
+                android:text="Regular Fitness"
+                android:textColor="#2C2828"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

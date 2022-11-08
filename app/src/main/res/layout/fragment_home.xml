@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/trial"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDF8F5"
+    tools:context=".ui.home.HomeFragment">
+    <!--    android:onClick="meditatefunc"-->
+
+    <TextView
+        android:id="@+id/textHome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="220dp"
+        android:background="#EFBD7F"
+        android:gravity="center_horizontal"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#70473A"
+        android:textColorHighlight="#A1DF59"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/home_info_about_app3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.177">
+
+        <TextView
+            android:id="@+id/home1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Features:"
+            android:textColor="#1E1E1E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vaccination"
+            android:textColor="#332B2B"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meditation Musics"
+            android:textColor="#332B2B"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Articles and Blogs"
+            android:textColor="#332B2B"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Videos"
+            android:textColor="#332B2B"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Multiple accounts can be login"
+            android:textColor="#332B2B"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book Lab Tests"
+            android:textColor="#332B2B"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find Doctors Online"
+            android:textColor="#332B2B"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/home_username"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#FAECD7"
+        android:paddingLeft="30dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:text="TextView"
+        android:textColor="#A61A46"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/home_info_about_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="76dp"
+        android:gravity="center_horizontal"
+        android:text="Health Care App"
+        android:textAlignment="center"
+        android:textColor="#221F1F"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/home_info_about_app2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:gravity="center_horizontal"
+        android:text="Developed by 4A52021 PBL Group"
+        android:textAlignment="center"
+        android:textColor="#221F1F"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_info_about_app"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/home_info_about_app3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="PICT"
+        android:textAlignment="center"
+        android:textColor="#221F1F"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_info_about_app2"
+        app:layout_constraintVertical_bias="0.157" />
+
+    <!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="142dp"-->
+<!--        android:text="Button"-->
+<!--        android:onClick="trialfunc"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/textHome"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/home_username" />-->
+
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/linearLayout"-->
+    <!--        android:layout_width="409dp"-->
+    <!--        android:layout_height="308dp"-->
+    <!--        android:background="#E8F4E2"-->
+    <!--        android:orientation="vertical"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.5"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/home_username">-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/imageView2"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="247dp"-->
+    <!--            android:src="@drawable/meditation" />-->
+
+    <!--        &lt;!&ndash;        <TextView&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:id="@+id/meditate_button"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:layout_height="112dp"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:layout_gravity="center_horizontal"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:clickable="true"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:drawableRight="@drawable/ic_baseline_navigate_next_24"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:onClick="meditatefunc"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:paddingLeft="20dp"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:paddingTop="10dp"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:text="Meditation Audio Tracks"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:textSize="20sp" />&ndash;&gt;-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/meditate_button"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="62dp"-->
+    <!--            android:layout_gravity="start"-->
+    <!--            android:drawableRight="@drawable/ic_baseline_navigate_next_24"-->
+    <!--            android:paddingLeft="20dp"-->
+    <!--            android:text="Meditation Music"-->
+    <!--            android:textAlignment="viewStart"-->
+    <!--            android:textColor="#728028"-->
+    <!--            android:textSize="20sp"-->
+    <!--            app:backgroundTint="#E8F4E2" />-->
+    <!--        &lt;!&ndash;        android:onClick="meditatefunc"&ndash;&gt;-->
+    <!--    </LinearLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

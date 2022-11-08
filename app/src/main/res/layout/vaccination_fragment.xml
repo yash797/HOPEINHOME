@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEFAF8"
+    tools:context=".ui.vaccination.vaccination">
+
+    <!--    app:backgroundTint="#B5E1DD"-->
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:fillViewport="true"-->
+<!--        tools:layout_editor_absoluteX="-36dp"-->
+<!--        tools:layout_editor_absoluteY="0dp">-->
+
+    <!--    </ScrollView>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/book_slot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp"
+            android:background="@drawable/rounded_button"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:gravity="start"
+            android:text="Book Slot for Vaccination"
+            android:textAlignment="textStart"
+            android:textColor="#222020"
+            android:textSize="18sp"
+            app:backgroundTint="#A9EACE"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/vaccine_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="What You Need To Know"
+            android:textColor="#0E0E0E"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/book_slot" />
+
+        <TextView
+            android:id="@+id/vaccine_first_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="COVID-19 vaccines are safe and effective at preventing COVID-19 disease, especially severe illness and death.
+    COVID-19 vaccines reduce the risk of people spreading the virus that causes COVID-19.
+    You may have side effects after vaccination. These are normal and should go away in a few days.
+    It typically takes 2 weeks after vaccination for the body to build protection (immunity) against the virus that causes COVID-19. You are not fully vaccinated until 2 weeks after the second dose of a 2-dose vaccine or 2 weeks after a single-dose vaccine.
+    After you are fully vaccinated, you can resume activities that you did before the pandemic.
+    Learn more about what you can do when you have been fully vaccinated."
+
+            android:textColor="#403736"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/vaccine_first" />
+
+        <TextView
+            android:id="@+id/vaccine_second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Side Effects of Vaccination"
+            android:textColor="#0E0E0E"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/vaccine_first_info" />
+
+        <TextView
+            android:id="@+id/vaccine_second_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Reported side effects to COVID-19 vaccines have mostly been mild to moderate and short-lasting.
+             They include: fever, fatigue, headache, muscle pain, chills, diarrhoea, and pain at the injection site.
+              The chances of any of these side effects following vaccination differ according to the specific COVID-19 vaccine."
+            android:textColor="#403736"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/vaccine_second" />
+
+        <TextView
+            android:id="@+id/vaccine_third"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Population Immunity"
+            android:textColor="#0E0E0E"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/vaccine_second_info" />
+
+        <TextView
+            android:id="@+id/vaccine_third_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Population immunity means that enough people in a community are protected
+            from getting a disease because they’ve already had the disease or because they’ve been vaccinated.
+    Population immunity makes it hard for a disease to spread from person to person.
+     It even protects those who cannot be vaccinated, like newborns or people who are allergic to a vaccine.
+     The percentage of people who need to have protection to achieve population immunity varies by disease."
+            android:textColor="#403736"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/vaccine_third" />
+
+        <TextView
+            android:id="@+id/vaccine_fourth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="New Varient"
+            android:textColor="#0E0E0E"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/vaccine_third_info" />
+
+        <TextView
+            android:id="@+id/vaccine_fourth_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="We are still learning how effective the vaccines are against new variants of the virus that causes COVID-19.
+    New variants of the virus that causes COVID-19 are spreading in the United States.
+    Current information suggests that COVID-19 vaccines authorized for use in the United States offer protection against most variants.
+    However, some variants might cause illness in some people after they are fully vaccinated if the variants are circulating in the community."
+            android:textColor="#403736"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/vaccine_fourth" />
+
+        <TextView
+            android:id="@+id/vaccine_fifth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Helpline"
+            android:textColor="#0E0E0E"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/vaccine_fourth_info" />
+
+<!--        <EditText-->
+<!--            android:id="@+id/vaccine_fifth_info"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="91-11-237978046"-->
+<!--            android:autofillHints="91-11-237978046"-->
+<!--            android:ems="10"-->
+<!--            android:drawableLeft="@drawable/ic_baseline_phone_in_talk_24"-->
+<!--            android:drawableStart="@drawable/ic_baseline_phone_in_talk_24"-->
+<!--            android:text="91-11-23978046"-->
+<!--            android:inputType="phone" />-->
+
+        <TextView
+            android:id="@+id/vaccine_fifth_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:drawableLeft="@drawable/ic_baseline_phone_in_talk_24"
+            android:drawableStart="@drawable/ic_baseline_phone_in_talk_24"
+            android:text="91-11-23978046"
+            android:textColor="#403736"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/vaccine_fourth" />
+
+
+    </LinearLayout>
+
+    <!--        </ScrollView>-->
+</ScrollView>

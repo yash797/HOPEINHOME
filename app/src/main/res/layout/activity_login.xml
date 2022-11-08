@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginimage"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/login_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:ems="10"
+        android:hint="Password"
+        android:password="true"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_username" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/hidebutton"-->
+<!--        android:layout_width="31dp"-->
+<!--        android:layout_height="26dp"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:onClick="ShowHidePass"-->
+<!--        android:background="@drawable/ic_baseline_visibility_24"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.815"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/login_username" />-->
+
+    <TextView
+        android:id="@+id/login_heading"
+        android:layout_width="301dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="116dp"
+        android:shadowColor="#C37070"
+        android:text="HOPE IN HOME"
+        android:textColorHighlight="#9F991B"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        app:cardBackgroundColor="#DAF7A6"
+        app:cardCornerRadius="25dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_password" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/login_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="loginfunc"
+                android:paddingTop="4dp"
+                android:text="Login"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textColor="#358838"
+                android:textSize="24sp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/login_register"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="registerbuttonfunc"
+        android:text="New User? Register Here"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

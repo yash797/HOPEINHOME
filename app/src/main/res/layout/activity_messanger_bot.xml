@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bot4"
+    tools:context=".MessangerBot">
+
+    <TextView
+        android:id="@+id/bot_content"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Welcome...This is the start of the conversation with the messanger bot.
+We'll stay i touch to get the most of your app.  "
+        android:textSize="18sp"
+        android:textColor="#615C5C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bot_content2" />
+
+    <TextView
+        android:id="@+id/bot_content2"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Feel free to leave us a message about anything that's on your mind.We'll get back to your questions,suggestions
+or anything else as soon as possible"
+        android:textColor="#615C5C"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bot_output1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#65483C"
+        android:paddingLeft="20dp"
+        android:text="Hey there, How can i help you?"
+        android:textColor="#EFEFEE"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.855"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bot_content" />
+
+    <EditText
+        android:id="@+id/bot_input1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="feel freee to ask"
+        android:inputType="textPersonName"
+        android:textColor="#037E13"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bot_output1" />
+
+    <Button
+        android:id="@+id/sendbutton"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:onClick="sendfunc"
+        android:text="Send"
+        android:textColor="#FDFCFC"
+        android:textSize="14sp"
+        app:backgroundTint="#6CBA26"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bot_output1" />
+
+    <TextView
+        android:id="@+id/bot_output2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#65483C"
+        android:paddingLeft="20dp"
+        android:textColor="#EFEFEE"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sendbutton" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/bot_input2"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:textColor="#131313"-->
+<!--        android:textSize="18sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.144"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/bot_output2" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/sendbutton2"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:onClick="sendfunc2"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.882"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/bot_output2" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>

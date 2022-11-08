@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:action="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/nav_menu_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_vaccination"
+            android:icon="@drawable/ic_baseline_book_online_24"
+            android:title="@string/nav_vaccination" />
+        <item
+            android:id="@+id/nav_meditation_audio_tracks"
+            android:icon="@drawable/ic_baseline_music_note_24"
+            android:title="@string/nav_meditation_audio_tracks" />
+        <item
+            android:id="@+id/nav_shop_by_category"
+            android:icon="@drawable/ic_baseline_category_24"
+            android:title="@string/nav_shop_by_category" />
+        <item
+            android:id="@+id/nav_videos"
+            android:icon="@drawable/ic_baseline_video_library_24"
+            android:title="@string/nav_videos" />
+        <item
+            android:id="@+id/nav_manage_payment"
+            android:icon="@drawable/ic_baseline_payment_24"
+            android:title="@string/nav_manage_payment" />
+        <item
+            android:id="@+id/nav_refer_and_earn"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="@string/nav_refer_and_earn" />
+        <item
+            android:id="@+id/nav_emergency"
+            android:icon="@drawable/ic_baseline_accessibility_24"
+            android:title="@string/nav_emergency" />
+    </group>
+    <item
+        android:title="@string/nav_action_medicine"
+        action:title="MEDICINES">
+        <menu android:title="@string/nav_action_medicine">
+            <item
+                android:id="@+id/nav_find_substitute"
+                android:icon="@drawable/ic_baseline_autorenew_24"
+                android:title="@string/nav_find_substitutes" />
+            <item
+                android:id="@+id/nav_order_with_prescription"
+                android:icon="@drawable/ic_baseline_speaker_notes_24"
+                android:title="@string/nav_order_with_prescription" />
+            <item
+                android:id="@+id/nav_pill_reminder"
+                android:icon="@drawable/ic_baseline_alarm_24"
+                android:title="@string/nav_pill_reminder" />
+        </menu>
+    </item>
+<!--    <group-->
+<!--        android:id="@+id/nav_menu_second"-->
+<!--        android:checkableBehavior="single">-->
+<!--        <item-->
+<!--            android:id="@+id/nav_find_substitute"-->
+<!--            android:icon="@drawable/ic_menu_gallery"-->
+<!--            android:title="@string/nav_find_substitutes" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_order_with_prescription"-->
+<!--            android:icon="@drawable/ic_menu_gallery"-->
+<!--            android:title="@string/nav_order_with_prescription" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_pill_reminder"-->
+<!--            android:icon="@drawable/ic_menu_gallery"-->
+<!--            android:title="@string/nav_pill_reminder" />-->
+<!--    </group>-->
+    <item
+        android:title="@string/nav_action_doctors"
+        action:title="DOCTORS">
+        <menu android:title="@string/nav_action_doctors">
+            <item
+                android:id="@+id/nav_consult_online"
+                android:icon="@drawable/ic_baseline_person_add_alt_1_24"
+                android:title="@string/nav_consult_online" />
+            <item
+                android:id="@+id/nav_find_doctors"
+                android:icon="@drawable/ic_baseline_person_search_24"
+                android:title="@string/nav_find_doctors" />
+            <item
+                android:id="@+id/nav_my_appointments"
+                android:icon="@drawable/ic_baseline_event_available_24"
+                android:title="@string/nav_my_appointments" />
+        </menu>
+    </item>
+    <item
+        android:title="@string/nav_action_lab_tests"
+        action:title="LAB TESTS">
+        <menu android:title="@string/nav_action_lab_tests">
+            <item
+                android:id="@+id/nav_book_lab_tests"
+                android:icon="@drawable/ic_baseline_book_online_24"
+                android:title="@string/nav_book_lab_tests" />
+        </menu>
+    </item>
+    <item
+        android:title="@string/nav_action_articles"
+        action:title="ARTICLES">
+        <menu android:title="@string/nav_action_articles">
+            <item
+                android:id="@+id/nav_view_all"
+                android:icon="@drawable/ic_baseline_view_day_24"
+                android:title="@string/nav_view_all" />
+            <item
+                android:id="@+id/nav_bookmarks"
+                android:icon="@drawable/ic_baseline_bookmarks_24"
+                android:title="@string/nav_bookmarks" />
+
+        </menu>
+    </item>
+    <item
+        android:title="@string/nav_action_others"
+        action:title="OTHERS">
+        <menu android:title="@string/nav_action_others">
+            <item
+                android:id="@+id/nav_need_help"
+                android:icon="@drawable/ic_baseline_live_help_24"
+                android:title="@string/nav_need_help" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="@string/nav_settings" />
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_baseline_info_24"
+                android:title="@string/nav_about_us" />
+        </menu>
+    </item>
+<!--    <item-->
+<!--        android:title="@string/nav_action_medicine"-->
+<!--        action:title="Medicines">-->
+<!--        <menu android:title="@string/nav_action_medicine">-->
+
+<!--        </menu>-->
+<!--    </item>-->
+<!--    <group-->
+<!--        android:id="@+id/nav_menu_third"-->
+<!--        android:checkableBehavior="single">-->
+<!--        <item-->
+<!--            android:id="@+id/nav_consult_online"-->
+<!--            android:icon="@drawable/ic_menu_gallery"-->
+<!--            android:title="@string/nav_consult_online" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_find_orders"-->
+<!--            android:icon="@drawable/ic_menu_gallery"-->
+<!--            android:title="@string/nav_find_doctors" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_my_appointments"-->
+<!--            android:icon="@drawable/ic_menu_gallery"-->
+<!--            android:title="@string/nav_my_appointments" />-->
+<!--    </group>-->
+<!--    <group-->
+<!--        android:id="@+id/nav_menu_fourth"-->
+<!--        android:checkableBehavior="single">-->
+<!--        <item-->
+<!--            android:id="@+id/nav_book_lab_tests"-->
+<!--            android:icon="@drawable/ic_menu_gallery"-->
+<!--            android:title="@string/nav_book_lab_tests" />-->
+
+<!--    </group>-->
+<!--    <group-->
+<!--        android:id="@+id/nav_menu_fifth"-->
+<!--        android:checkableBehavior="single">-->
+<!--        <item-->
+<!--            android:id="@+id/nav_view_all"-->
+<!--            android:icon="@drawable/ic_menu_gallery"-->
+<!--            android:title="@string/nav_view_all" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_bookmarks"-->
+<!--            android:icon="@drawable/ic_menu_gallery"-->
+<!--            android:title="@string/nav_bookmarks" />-->
+
+<!--    </group>-->
+<!--    <group-->
+<!--        android:id="@+id/nav_menu_sixth"-->
+<!--        android:checkableBehavior="single">-->
+<!--        <item-->
+<!--            android:id="@+id/nav_need_help"-->
+<!--            android:icon="@drawable/ic_menu_gallery"-->
+<!--            android:title="@string/nav_need_help" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_settings"-->
+<!--            android:icon="@drawable/ic_menu_gallery"-->
+<!--            android:title="@string/nav_settings" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_about_us"-->
+<!--            android:icon="@drawable/ic_menu_gallery"-->
+<!--            android:title="@string/nav_about_us" />-->
+<!--    </group>-->
+</menu>

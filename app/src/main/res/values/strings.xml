@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">HOPE IN HOME</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Username</string>
+    <string name="nav_header_subtitle">User@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="nav_app_name">HOPE IN HOME</string>
+    <string name="nav_user_image">user_image</string>
+    <string name="nav_shop_by_category">Shop by Category</string>
+    <string name="nav_videos">Videos</string>
+    <string name="nav_manage_payment">Manage Payment</string>
+    <string name="nav_refer_and_earn">Refer and Earn</string>
+    <string name="nav_emergency">Emergency</string>
+    <string name="nav_find_substitutes">Find Substitute</string>
+    <string name="nav_order_with_prescription">Order with Prescription</string>
+    <string name="nav_pill_reminder">Pill Reminder</string>
+    <string name="nav_consult_online">Consult Online</string>
+    <string name="nav_find_doctors">Find Doctors</string>
+    <string name="nav_my_appointments">My Appointments</string>
+    <string name="nav_book_lab_tests">Book Lab Tests</string>
+    <string name="nav_view_all">View All</string>
+    <string name="nav_bookmarks">Bookmarks</string>
+    <string name="nav_need_help">Need Help?</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="nav_action_medicine">Medicines</string>
+    <string name="nav_action_doctors">DOCTORS</string>
+    <string name="nav_action_lab_tests">LAB TESTS</string>
+    <string name="nav_action_articles">ARTICLES</string>
+    <string name="nav_action_others">OTHERS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_add_another_account">Add another Account</string>
+    <string name="action_log_out">Log out</string>
+    <string name="action_about_us">About Us</string>
+    <string name="nav_meditation_audio_tracks">Meditation Audio Tracks</string>
+    <string name="nav_vaccination">Vaccination</string>
+</resources>

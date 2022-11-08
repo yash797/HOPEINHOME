@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.hopeinhome.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_vaccination"
+        android:name="com.example.hopeinhome.ui.vaccination.vaccination"
+        android:label="@string/nav_vaccination"
+        tools:layout="@layout/vaccination_fragment" />
+
+    <fragment
+        android:id="@+id/nav_meditation_audio_tracks"
+        android:name="com.example.hopeinhome.ui.meditation_audio_tracks.meditation_audio_tracks"
+        android:label="@string/nav_meditation_audio_tracks"
+        tools:layout="@layout/meditation_audio_tracks_fragment" />
+
+    <fragment
+        android:id="@+id/nav_shop_by_category"
+        android:name="com.example.hopeinhome.ui.shop_by_category.shop_by_category"
+        android:label="@string/nav_shop_by_category"
+        tools:layout="@layout/shop_by_category_fragment" />
+    <fragment
+        android:id="@+id/nav_videos"
+        android:name="com.example.hopeinhome.ui.videos.videos"
+        android:label="@string/nav_videos"
+        tools:layout="@layout/videos_fragment" />
+    <fragment
+        android:id="@+id/nav_manage_payment"
+        android:name="com.example.hopeinhome.ui.manage_payment.manage_payment"
+        android:label="@string/nav_manage_payment"
+        tools:layout="@layout/manage_payment_fragment" />
+    <fragment
+        android:id="@+id/nav_refer_and_earn"
+        android:name="com.example.hopeinhome.ui.refer_and_earn.refer_and_earn"
+        android:label="@string/nav_refer_and_earn"
+        tools:layout="@layout/refer_and_earn_fragment" />
+    <fragment
+        android:id="@+id/nav_emergency"
+        android:name="com.example.hopeinhome.ui.emergency.emergency"
+        android:label="@string/nav_emergency"
+        tools:layout="@layout/emergency_fragment" />
+    <fragment
+        android:id="@+id/nav_find_substitute"
+        android:name="com.example.hopeinhome.ui.find_substitutes.find_substitute"
+        android:label="@string/nav_find_substitutes"
+        tools:layout="@layout/find_substitute_fragment" />
+    <fragment
+        android:id="@+id/nav_order_with_prescription"
+        android:name="com.example.hopeinhome.ui.order_with_prescription.order_with_prescription"
+        android:label="@string/nav_order_with_prescription"
+        tools:layout="@layout/order_with_prescription_fragment" />
+    <fragment
+        android:id="@+id/nav_pill_reminder"
+        android:name="com.example.hopeinhome.ui.pill_reminder.pill_reminder"
+        android:label="@string/nav_pill_reminder"
+        tools:layout="@layout/pill_reminder_fragment" />
+    <fragment
+        android:id="@+id/nav_consult_online"
+        android:name="com.example.hopeinhome.ui.consult_online.consult_online"
+        android:label="@string/nav_consult_online"
+        tools:layout="@layout/consult_online_fragment" />
+    <fragment
+        android:id="@+id/nav_find_doctors"
+        android:name="com.example.hopeinhome.ui.find_doctors.find_doctors"
+        android:label="@string/nav_find_doctors"
+        tools:layout="@layout/find_doctors_fragment" />
+    <fragment
+        android:id="@+id/nav_my_appointments"
+        android:name="com.example.hopeinhome.ui.my_appointments.my_appointments"
+        android:label="@string/nav_my_appointments"
+        tools:layout="@layout/my_appointments_fragment" />
+    <fragment
+        android:id="@+id/nav_book_lab_tests"
+        android:name="com.example.hopeinhome.ui.book_lab_tests.book_lab_tests"
+        android:label="@string/nav_book_lab_tests"
+        tools:layout="@layout/book_lab_tests_fragment" />
+
+    <fragment
+        android:id="@+id/nav_view_all"
+        android:name="com.example.hopeinhome.ui.view_all.view_all"
+        android:label="@string/nav_view_all"
+        tools:layout="@layout/view_all_fragment" />
+    <fragment
+        android:id="@+id/nav_bookmarks"
+        android:name="com.example.hopeinhome.ui.bookmarks.bookmarks"
+        android:label="@string/nav_bookmarks"
+        tools:layout="@layout/bookmarks_fragment" />
+    <fragment
+        android:id="@+id/nav_need_help"
+        android:name="com.example.hopeinhome.ui.need_help.need_help"
+        android:label="@string/nav_need_help"
+        tools:layout="@layout/need_help_fragment" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.hopeinhome.ui.settings.settings"
+        android:label="@string/nav_settings"
+        tools:layout="@layout/settings_fragment" />
+    <fragment
+        android:id="@+id/nav_about_us"
+        android:name="com.example.hopeinhome.ui.about_us.about_us"
+        android:label="@string/nav_about_us"
+        tools:layout="@layout/about_us_fragment" />
+<!--    <fragment-->
+<!--        android:id="@+id/nav_gallery"-->
+<!--        android:name="com.example.hopeinhome.ui.gallery.GalleryFragment"-->
+<!--        android:label="@string/menu_gallery"-->
+<!--        tools:layout="@layout/fragment_gallery" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_slideshow"-->
+<!--        android:name="com.example.hopeinhome.ui.slideshow.SlideshowFragment"-->
+<!--        android:label="@string/menu_slideshow"-->
+<!--        tools:layout="@layout/fragment_slideshow" />-->
+</navigation>

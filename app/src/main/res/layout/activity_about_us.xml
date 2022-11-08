@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEFAF8"
+    tools:context=".about_us_activity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Guided by Dr.Rajendra Tadakhe Sir"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/about_yash_imageA"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/about_yash" />
+
+            <TextView
+                android:id="@+id/about_yashA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Yash Gajalwar"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/about_us_linkedin_buttonA"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+
+
+                    android:layout_weight="1"
+                    android:src="@drawable/linkedin" />
+
+                <ImageView
+                    android:id="@+id/about_us_insta_buttonA"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/instagram" />
+
+                <TextView
+                    android:id="@+id/about_yash_phoneA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_baseline_phone_in_talk_24"
+                    android:paddingTop="5dp"
+                    android:text="+91 9764803970"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/about_mahek_imageA"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/about_mahek" />
+
+            <TextView
+                android:id="@+id/about_mahekA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Mahek Mulla"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/about_us_linkedin_button2A"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/linkedin" />
+
+                <ImageView
+                    android:id="@+id/about_us_insta_button2A"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/instagram" />
+
+                <TextView
+                    android:id="@+id/about_mahek_phoneA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_baseline_phone_in_talk_24"
+                    android:paddingTop="5dp"
+                    android:text="+91 7083343838"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/about_shreya_imageA"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/about_shreya" />
+
+            <TextView
+                android:id="@+id/about_shreyaA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Shreya Shetti"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/about_us_linkedin_button3A"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+
+
+                    android:layout_weight="1"
+                    android:src="@drawable/linkedin" />
+
+                <!--                <ImageView-->
+                <!--                    android:id="@+id/about_us_insta_button3"-->
+                <!--                    android:layout_width="30dp"-->
+                <!--                    android:layout_height="30dp"-->
+                <!--                    android:layout_marginLeft="10dp"-->
+                <!--                    android:layout_weight="1"-->
+                <!--                    android:src="@drawable/instagram" />-->
+
+                <TextView
+                    android:id="@+id/about_shreya_phoneA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_baseline_phone_in_talk_24"
+                    android:paddingTop="5dp"
+                    android:text="+91 9112637785"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/about_sanjana_imageA"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/about_sanjana" />
+
+            <TextView
+                android:id="@+id/about_sanjanaA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Sanjana Mamde"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!--                <ImageView-->
+                <!--                    android:id="@+id/about_us_linkedin_button4"-->
+                <!--                    android:layout_width="30dp"-->
+                <!--                    android:layout_height="30dp"-->
+
+
+                <!--                    android:layout_weight="1"-->
+                <!--                    android:src="@drawable/linkedin" />-->
+
+                <ImageView
+                    android:id="@+id/about_us_insta_button4A"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/instagram" />
+
+                <TextView
+                    android:id="@+id/about_sanjana_phoneA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_baseline_phone_in_talk_24"
+                    android:paddingTop="5dp"
+                    android:text="+91 9130909293"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/about_kshitija_imageA"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/about_kshitija" />
+
+            <TextView
+                android:id="@+id/about_kshitijaA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Kshitija Gondhalekar"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/about_us_linkedin_button5A"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+
+
+                    android:layout_weight="1"
+                    android:src="@drawable/linkedin" />
+
+                <ImageView
+                    android:id="@+id/about_us_insta_button5A"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/instagram" />
+
+                <TextView
+                    android:id="@+id/about_kshitija_phoneA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_baseline_phone_in_talk_24"
+                    android:paddingTop="5dp"
+                    android:text="+91 9370026604"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/about_us_contentA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Many medical applications for smartphones have been developed and widely
+used by health professionals and patients. The use of smartphones is getting more attention
+in healthcare day by day. Medical applications make smartphones useful tools in the practice
+of evidence-based medicine at the point of care, in addition to their use in mobile clinical
+communication. Also, smartphones can play a very important role in patient education,
+disease self-management, and remote monitoring of patients.So our team decided to make
+ healthcare app in this pandemic to protect ourselves."
+            android:textColor="#426056"
+            android:textSize="19sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

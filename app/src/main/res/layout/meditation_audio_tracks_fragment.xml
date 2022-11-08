@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.meditation_audio_tracks.meditation_audio_tracks">
+
+<!--    <ListView-->
+<!--        android:id="@+id/myListView"-->
+<!--        android:layout_width="409dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:onClick="onItemClick"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/meditate_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Meditate"
+            android:drawableStart="@drawable/ic_baseline_self_improvement_24"
+            android:drawableLeft="@drawable/ic_baseline_self_improvement_24"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:textColor="#191818"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/alone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_button"
+            android:drawableRight="@drawable/ic_baseline_play_arrow_24"
+            android:onClick="alonefunc"
+            android:text="Alone"
+            android:textColor="#FBFBFB"
+            android:textSize="18sp"
+            app:backgroundTint="#88F196" />
+
+        <Button
+            android:id="@+id/ambience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_button"
+            android:drawableRight="@drawable/ic_baseline_play_arrow_24"
+            android:onClick="ambiencefunc"
+            android:text="Ambience"
+            android:textColor="#FBFBFB"
+            android:textSize="18sp"
+            app:backgroundTint="#88F196" />
+
+        <Button
+            android:id="@+id/sunset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_button"
+            android:drawableRight="@drawable/ic_baseline_play_arrow_24"
+            android:onClick="sunsetfunc"
+            android:text="Sunset"
+            android:textColor="#FBFBFB"
+            android:textSize="18sp"
+            app:backgroundTint="#88F196" />
+        <TextView
+            android:id="@+id/meditate_second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Benefits of Meditation and Music"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:textColor="#191818"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/meditate_third"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Protect your heart"
+            android:textColor="#534A4A"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/meditate_third_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="People who practice medication are less likely to have a heart attack or stroke,
+ or die within five years,* according to Harvard Medical School. Meditation helps reduce
+ cardiovascular risk physiologically by lowering heart rate, blood pressure, adrenaline
+ and the stress-related hormone, cortisol.*"
+            android:textColor="#736262"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/meditate_fourth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Improve sleep"
+            android:textColor="#534A4A"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/meditate_fourth_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Older adults who had trouble sleeping experienced less insomnia and fatigue after six weeks of practising mindfulness meditation,* reported a JAMA Medicine study. Mindfulness meditation, which focuses on breathing and awareness of the present moment, helps people sleep better by making it easier to evoke the body’s relaxation response at night,* according to Harvard University researchers.
+"
+            android:textColor="#736262"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/meditate_fifth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Relieve pain"
+            android:textColor="#534A4A"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/meditate_fifth_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Patients who listened to music before, during and after surgery had less anxiety and needed less pain relief after surgery, according to a study in The Lancet."
+            android:textColor="#736262"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/meditate_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/meditation"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+    </LinearLayout>
+</ScrollView>
